@@ -1,0 +1,18 @@
+{
+    "id": "/Telefone",
+    "type": "object",
+    "required": ["numero", "tipo"],
+    "properties": {
+        "id": {
+            "type": "number"
+        },
+        "tipo": {
+            "default": "masc",
+            "type": "string",
+            "enum": ["masc", "femi"]
+        },
+        "numero": {
+            "type": "number"
+        }
+    }
+}

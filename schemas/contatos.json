@@ -1,0 +1,23 @@
+{
+    "id": "api/schema/Contact",
+    "type": "object",
+    "required": ["nome", "telefone"],
+    "properties": {
+        "id": {
+            "type": "number"
+        },
+        "nome": {
+            "type": "string"
+        },
+        "avatar" : {
+            "type": "string"
+        },
+        "idade": {
+            "id": "/idade",
+            "type": "number"
+        },
+        "telefone": {
+            "type": "string"
+        }
+    }
+}
